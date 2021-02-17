@@ -1,0 +1,6 @@
+<p> Type your favourite name</p>
+<ion-input type="text"  [(ngModel)]="nametext"></ion-input><br>
+<ion-button (click)="addname(nametext)">Add</ion-button>
+<li *ngFor="let e of namearray" >{{e}} </li>
+
+

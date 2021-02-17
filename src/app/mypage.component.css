@@ -1,0 +1,11 @@
+input{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+button{
+  border-color: black;
+  box-sizing: border-box;
+  background: blue;
+  text-align: center;
+}
